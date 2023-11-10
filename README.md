@@ -1,24 +1,25 @@
 # FLEx script collection
 This is a collection of scripts for SIL's [FieldWorks](https://software.sil.org/fieldworks/) projects.
-Download a [ZIP](https://github.com/fmatter/flex-script-collection/archive/refs/heads/main.zip) from github or `git clone https://github.com/fmatter/flex-script-collection`.
-It is recommended to use a [virtual environment](https://docs.python.org/3/library/venv.html), to run the setup:
+Download a [ZIP](https://github.com/fmatter/flex-script-collection/archive/refs/heads/main.zip) from or clone the repository:
 
-```shell
-pip install -r requirements.txt
+```
+git clone https://github.com/fmatter/flex-script-collection
 ```
 
-Then you can execute individual scripts.
+See pages for individual scripts for usage instructions.
+It is recommended to use a [virtual environment](https://docs.python.org/3/library/venv.html) to install necessary packages.
 
-## Contributing a script
-To contribute a useful script, [fork the github repository](https://github.com/fmatter/flex-script-collection/fork) and add the following files to your fork:
+## Contribute a new script
+To add a script to the collection, [fork the github repository](https://github.com/fmatter/flex-script-collection/fork), use a [virtual environment](https://docs.python.org/3/library/venv.html) to `pip install -r requirements.txt`, and add the following files to your fork:
 
-1. a `my_script.*` file; ideally with:
+1. a `my_script.py` (or other suffix) file, ideally with:
     * name and contact info
     * comments where necessary (!)
     * a license
-2. a `docs/my_script.md` file with least basic instructions
+2. a `docs/scripts/my_script.md` file with least:
+    * basic instructions
+    * requirements
 
-Add necessary packages to `requirements.txt`.
 Look at existing scripts to compare.
 Run `mkdocs serve` and visit [`localhost:8000`](http://localhost:8000).
 Finally, create a pull request.
