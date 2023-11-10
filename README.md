@@ -18,9 +18,10 @@ To add a script to the collection, [fork the github repository](https://github.c
     * a license
 2. a `docs/scripts/my_script.md` file with least:
     * basic setup and usage instructions
+    * tags (check mkdocs.yaml and add if neessary)
     * requirements
 
-Look at existing scripts to compare.
+Look at existing scripts and their documentation to compare 
 Run `mkdocs serve` and visit [`localhost:8000`](http://localhost:8000).
 Finally, create a pull request.
 
