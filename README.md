@@ -18,6 +18,7 @@ To add a script to the collection, [fork the github repository](https://github.c
     * a license
 2. a `docs/scripts/my_script.md` file with least:
     * basic setup and usage instructions
+    * tags (check mkdocs.yaml and add if neessary)
     * requirements
 
 Look at existing scripts to compare.
