@@ -6,7 +6,7 @@ Download a [ZIP](https://github.com/fmatter/langdoc-script-collection/archive/re
 git clone https://github.com/fmatter/langdoc-script-collection
 ```
 
-See pages for individual scripts for usage instructions.
+See the documentation for individual scripts for usage instructions.
 It is recommended to use a [virtual environment](https://docs.python.org/3/library/venv.html) to install necessary packages.
 
 ## Contribute a new script
@@ -25,6 +25,6 @@ Run `mkdocs serve` and visit [`localhost:8000`](http://localhost:8000).
 Finally, create a pull request.
 
 ## Other software
-* [cldflex](https://fl.mt/cldflex)
+* [cldflex](https://github.com/fmatter/cldflex/)
 * [flexpy](https://github.com/Kuhron/flexpy)
 * ...
