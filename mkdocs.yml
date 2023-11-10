@@ -7,7 +7,8 @@ plugins:
   # - mkdocstrings
   - include-markdown
   - git-authors
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      fallback_to_build_date: true
 extra_css:
   - style.css
 extra:
