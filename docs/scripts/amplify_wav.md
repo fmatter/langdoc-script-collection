@@ -12,9 +12,7 @@ This script amplifies segments of a WAV audio file so that it is more audible wh
 Procedure that I follow manually:
 
 - find a section of audio between silent spots (or at least significantly quieter than the voice volume)
-
 - amplify it and go past clipping to some extent, so the average amplitude is enough to hear well
-
 - ignore isolated small spikes that make the max amplitude much larger than the average, I've never had a problem with clipping too much making it hard for consultants to understand, so err on the side of being too loud
 
 This script automates this procedure.
