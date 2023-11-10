@@ -10,7 +10,7 @@
       
       
       
-        <link rel="next" href="scripts/fix_audio_path/">
+        <link rel="next" href="scripts/dict_audio_path/">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -298,8 +298,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#contributing-a-script" class="md-nav__link">
-    Contributing a script
+  <a href="#contribute-a-new-script" class="md-nav__link">
+    Contribute a new script
   </a>
   
 </li>
@@ -361,11 +361,11 @@
   
   
     <li class="md-nav__item">
-      <a href="scripts/fix_audio_path/" class="md-nav__link">
+      <a href="scripts/dict_audio_path/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Modify all audio paths
+    Add prefix to audio path (.lift)
   </span>
   
 
@@ -403,24 +403,27 @@
 <!-- BEGIN INCLUDE ../README.md -->
 <h1 id="flex-script-collection">FLEx script collection</h1>
 <p>This is a collection of scripts for SIL's <a href="https://software.sil.org/fieldworks/">FieldWorks</a> projects.
-Download a <a href="https://github.com/fmatter/flex-script-collection/archive/refs/heads/main.zip">ZIP</a> from github or <code>git clone https://github.com/fmatter/flex-script-collection</code>.
-It is recommended to use a <a href="https://docs.python.org/3/library/venv.html">virtual environment</a>, to run the setup:</p>
-<div class="language-shell highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip<span style="color: #bbbbbb"> </span>install<span style="color: #bbbbbb"> </span>-r<span style="color: #bbbbbb"> </span>requirements.txt
+Download a <a href="https://github.com/fmatter/flex-script-collection/archive/refs/heads/main.zip">ZIP</a> from or clone the repository:</p>
+<div class="language-text highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git clone https://github.com/fmatter/flex-script-collection
 </span></code></pre></div>
-<p>Then you can execute individual scripts.</p>
-<h2 id="contributing-a-script">Contributing a script</h2>
-<p>To contribute a useful script, <a href="https://github.com/fmatter/flex-script-collection/fork">fork the github repository</a> and add the following files to your fork:</p>
+<p>See pages for individual scripts for usage instructions.
+It is recommended to use a <a href="https://docs.python.org/3/library/venv.html">virtual environment</a> to install necessary packages.</p>
+<h2 id="contribute-a-new-script">Contribute a new script</h2>
+<p>To add a script to the collection, <a href="https://github.com/fmatter/flex-script-collection/fork">fork the github repository</a>, use a <a href="https://docs.python.org/3/library/venv.html">virtual environment</a> to <code>pip install -r requirements.txt</code>, and add the following files to your fork:</p>
 <ol>
-<li>a <code>my_script.*</code> file; ideally with:<ul>
+<li>a <code>my_script.py</code> (or other suffix) file, ideally with:<ul>
 <li>name and contact info</li>
 <li>comments where necessary (!)</li>
 <li>a license</li>
 </ul>
 </li>
-<li>a <code>docs/my_script.md</code> file with least basic instructions</li>
+<li>a <code>docs/scripts/my_script.md</code> file with least:<ul>
+<li>basic instructions</li>
+<li>requirements</li>
+</ul>
+</li>
 </ol>
-<p>Add necessary packages to <code>requirements.txt</code>.
-Look at existing scripts to compare.
+<p>Look at existing scripts to compare.
 Run <code>mkdocs serve</code> and visit <a href="http://localhost:8000/.."><code>localhost:8000</code></a>.
 Finally, create a pull request.</p>
 <h2 id="other-software">Other software</h2>
