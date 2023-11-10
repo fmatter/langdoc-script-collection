@@ -1,16 +1,16 @@
-# FLEx script collection
-This is a collection of scripts for SIL's [FieldWorks](https://software.sil.org/fieldworks/) projects.
-Download a [ZIP](https://github.com/fmatter/flex-script-collection/archive/refs/heads/main.zip) from or clone the repository:
+# Language documentation script collection
+This is a collection of scripts for common language documentation workflows.
+Download a [ZIP](https://github.com/fmatter/langdoc-script-collection/archive/refs/heads/main.zip) from or clone the repository:
 
 ```
-git clone https://github.com/fmatter/flex-script-collection
+git clone https://github.com/fmatter/langdoc-script-collection
 ```
 
 See pages for individual scripts for usage instructions.
 It is recommended to use a [virtual environment](https://docs.python.org/3/library/venv.html) to install necessary packages.
 
 ## Contribute a new script
-To add a script to the collection, [fork the github repository](https://github.com/fmatter/flex-script-collection/fork), use a [virtual environment](https://docs.python.org/3/library/venv.html) to `pip install -r requirements.txt`, and add the following files to your fork:
+To add a script to the collection, [fork the github repository](https://github.com/fmatter/langdoc-script-collection/fork), use a [virtual environment](https://docs.python.org/3/library/venv.html) to `pip install -r requirements.txt`, and add the following files to your fork:
 
 1. a `my_script.py` (or other suffix) file, ideally with:
     * name and contact info

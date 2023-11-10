@@ -1,11 +1,18 @@
-site_name: FLEx script collection
-repo_url: https://github.com/fmatter/flex-script-collection
+site_name: Language documentation script collection
+repo_url: https://github.com/fmatter/langdoc-script-collection
 plugins:
   - search
+  - tags:
+      tags_file: tags.md
   # - mkdocstrings
   - include-markdown
+  - git-authors
+  - git-revision-date-localized
 extra_css:
   - style.css
+extra:
+  tags:
+    flex: SIL's [FieldWorks](https://software.sil.org/fieldworks/)
 theme:
   name: material
   features:

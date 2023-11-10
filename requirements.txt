@@ -2,3 +2,5 @@ mkdocs
 pymdown-extensions
 mkdocs-material
 mkdocs-include-markdown-plugin
+mkdocs-git-authors-plugin
+mkdocs-git-revision-date-localized-plugin

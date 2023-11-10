@@ -1,3 +1,7 @@
+---
+tags:
+    - flex
+---
 # Add prefix to audio path (`.lift`)
 This script iterates a `.lift` export and modifies the `href` attribute of every `media` tag.
 This is where paths to audio files are stored.
