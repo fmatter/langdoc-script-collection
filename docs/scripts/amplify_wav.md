@@ -23,8 +23,7 @@ Edit the variables in the area at the top of the script labeled "PARAMS TO BE SE
 Requirements:
 
 ```shell
-pip install numpy
-pip install matplotlib
+pip install numpy matplotlib
 ```
 
 ## Execution
