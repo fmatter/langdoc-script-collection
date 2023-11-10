@@ -14,10 +14,10 @@ To add a script to the collection, [fork the github repository](https://github.c
 
 1. a `my_script.py` (or other suffix) file, ideally with:
     * name and contact info
-    * comments where necessary (!)
+    * comments where necessary
     * a license
 2. a `docs/scripts/my_script.md` file with least:
-    * basic instructions
+    * basic setup and usage instructions
     * requirements
 
 Look at existing scripts to compare.
