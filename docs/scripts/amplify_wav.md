@@ -2,7 +2,6 @@
 tags:
     - audio
     - wav
-    - saymore
 ---
 # Amplify segments of speech in WAV files
 Author: Wesley Kuhron Jones
